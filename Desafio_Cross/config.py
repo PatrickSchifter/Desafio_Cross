@@ -31,7 +31,7 @@ while True:
         for item in info:
             for to_ignore in list_ignore:
                 item = item.replace(to_ignore, '')
-                item = float(item)
+            item = float(item)
             if page == 1:
                 list_temp.append(item)
             else:
