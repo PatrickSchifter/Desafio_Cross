@@ -1,4 +1,4 @@
-from ProjectCross.config import list_num
+from config import list_num
 from fastapi import FastAPI
 
 app = FastAPI()
